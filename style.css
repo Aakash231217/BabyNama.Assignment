@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    margin-top: 43vh;
+    background-color: rgb(40, 38, 38);
+    color: rgb(0, 149, 255);
+}
+.mini {
+    height: 6vh; /* Adjust the height as needed */
+    width: 80vh; /* Adjust the width as needed */
+    background-color:rgb(40,38,38); /* Replace with your desired background color */
+    color: rgb(247, 241, 241);
+    font-size: small;
+  }
+  
+
+p {
+    margin-left: -28%;
+    color: rgb(0, 140, 255);
+}
+
+
+.clock {
+    color: rgb(0, 159, 255);
+    font-weight: bold;
+    font-size: 10vh;
+}

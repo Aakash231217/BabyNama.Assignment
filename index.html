@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Timer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> <!-- Include Font Awesome library -->
+</head>
+<body>
+    <p>Enter Minutes
+    <form action="" class="min">
+        <input type="number" id="countMin" placeholder="0" class="mini" style="color: white;" size="10vh">
+    </form></p>
+    <div class="clock">
+        <button id="play" class="button"><i class="fa fa-play-circle fa-3x" style="font-size:48px;background-color:black;color:rgb(0, 123, 255)"></i>
+        </button> 
+        <span id="countDisplay">00:00:00</span>
+        <div>
+        </div>
+        <button id="pause" class="button">Pause</button>
+        <button id="reset" class="button">Reset</button>
+    </div>
+
+    <script src="index.js" async defer></script>
+</body>
+</html>
